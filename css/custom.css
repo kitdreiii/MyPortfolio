@@ -1,0 +1,285 @@
+@import url('https://fonts.cdnfonts.com/css/hammersmith-one');
+@import url('https://fonts.cdnfonts.com/css/signika');
+html,
+/* HOME */
+body {
+  height: 100%;
+}
+
+h1{
+  color: white;
+  height: 6vh;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+
+h2{
+  margin-bottom: 50px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+.titl3{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 4vw;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(4,11,28);
+}
+.text-center {
+  color: white;
+  font-family: 'Hammersmith One', sans-serif;
+}
+.lead {
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+.bottom{
+  color: white;
+}
+.p{
+  color: white;
+  font-family: sans-serif;
+}
+
+.about-text{
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+.rounded-circle {
+  border: 3px solid #000000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  transform: translateX(10px) rotate(10deg) translateY(5px);
+  transition: width 2s, height 4s;
+}
+
+.rounded-circle:hover {
+  transform: rotate(-5deg);
+}
+
+nav.navbar .navbar-nav .nav-link {
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent; /* Add a transparent border-bottom */
+}
+nav-item. nav-link{
+  color: white;
+}
+nav.navbar .navbar-nav .nav-item.active .nav-link {
+  color: whitesmoke;
+  border-bottom-color: whitesmoke; 
+}
+
+nav.navbar .navbar-nav .nav-link:hover {
+  color: whitesmoke;
+  border-bottom-color: 10px so;
+}
+.bi-list{
+  color: white;
+}
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border-color: white;
+  background-color:  whitesmoke;
+}
+
+.navbar-toggler:hover {
+  border-color: whitesmoke;
+  background-color: white;
+  
+}
+
+
+main {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+
+header {
+  background: no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.color-overlay {
+
+  min-height: 70vh;
+}
+
+label.form-label {
+  color: white;
+}
+
+input.form-control,
+textarea.form-control {
+  color: black;
+}
+
+/*--------- PORTFOLIO ---------*/
+.card .item-text-wrap {
+    background: red;
+    max-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-text{
+  color: white;
+}
+.card-title{
+  color: white;
+  font-family:'Hammersmith One', sans-serif;
+}
+.card{
+  border: 10px solid #30363D;
+  border-radius: 5px;
+}
+.card-body{
+  background-color: black;
+  }
+
+.card-img-top{
+  border-radius: 1px;
+}
+
+.btn-outline-dark{
+  background-color: blue;
+  color: white;
+}
+.btn-outline-dark:hover{
+  background-color: black;
+}
+.singleCol {
+  max-width: 750px;
+}
+
+/*-------- ABOUT SECTION------ */
+
+.profile-section {
+  margin-top: 40px;
+}
+.about-title {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-section img {
+  border: 2px solid #9AA1A9;
+  max-width: 100%;
+  height: auto;
+  width: 300px; 
+}
+
+.profile-section h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.profile-section p.lead {
+  color: white;
+}
+.profile-section {
+  position: relative;
+}
+
+
+.cover-photo {
+  height: 230px;
+  position: relative;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: 200%;
+  object-fit: cover;
+}
+
+.profile-section img {
+  position: relative;
+  z-index: 1; 
+ 
+}
+
+.profile-section h1, .profile-section p {
+  position: relative;
+  z-index: 1; 
+  color: white; 
+}
+
+
+.about-section {
+  margin-top: 40px;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.about-section p.about-text {
+  color: white;
+}
+form {
+    padding: 20px;
+    border: 10px solid ;
+    border-radius: 5px;
+}
+
+form label {
+    font-weight: ;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+footer {
+  background-color: #161B22;
+  color: wheat;
+}
+
+footer a {
+  color: white;
+}
+}
+footer a:hover {
+  color: #dfdfdf;
+}
+}
+
+@media (max-width: 767.98px) {
+  .color-overlay {
+    min-height: 30vh;
+  }
+  .lead{
+    font-size: 16px;
+   }
+
+  .profile-section img {
+    border: 2px solid #9AA1A9;
+    max-width: 100%;
+    height: auto;
+    width: 200px; 
+  }
+  .cover-photo {
+  height: 100px;
+  position: relative;
+}
+
+.cover-photo img {
+  width: 100%;
+  height: 200%;
+  object-fit: cover;
+}
+}
